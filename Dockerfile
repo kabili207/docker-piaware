@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Andrew Nagle <kabili@zyrenth.com>
 
-ENV VERSION=3.5.0
+ENV VERSION=3.5.3
 
 COPY disable-cert-validation.patch /tmp
 
