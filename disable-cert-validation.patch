@@ -1,0 +1,13 @@
+diff -Nuar piaware-old/package/fa_adept_client.tcl piaware/package/fa_adept_client.tcl
+--- piaware-old/package/fa_adept_client.tcl	2017-05-28 15:37:49.586805663 -0400
++++ piaware/package/fa_adept_client.tcl	2017-05-28 15:39:09.160897992 -0400
+@@ -277,6 +277,8 @@
+ 
+ 		array set status $statusList
+ 
++		return 1
++
+ 		# require expected fields
+ 		foreach field "subject issuer notBefore notAfter" {
+ 			if {![info exists status($field)]} {
+
